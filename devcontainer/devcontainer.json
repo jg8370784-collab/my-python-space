@@ -1,0 +1,13 @@
+{
+    "name": "Python Desktop Portal",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "desktop",
+    "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+    "forwardPorts": [3000],
+    "portsAttributes": {
+        "3000": {
+            "label": "Desktop Interface",
+            "onAutoForward": "openBrowser"
+        }
+    }
+}
