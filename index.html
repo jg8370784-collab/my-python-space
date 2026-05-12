@@ -1,14 +1,26 @@
-<a href="https://webvm.io/" class="card">
-    <strong>Full Python Terminal</strong>
-    <div class="desc">A Debian VM. Just type 'python3' to start.</div>
-</a>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Stealth Break Station</title>
+    <style>
+        body { font-family: sans-serif; background: #0d1117; color: white; text-align: center; padding-top: 50px; }
+        .grid { display: flex; justify-content: center; gap: 20px; }
+        .btn { 
+            background: #238636; color: white; padding: 20px; 
+            text-decoration: none; border-radius: 10px; width: 200px;
+            display: block; font-weight: bold;
+        }
+        .btn:hover { background: #2ea44f; }
+    </style>
+</head>
+<body>
+    <h1>Select Workstation</h1>
+    <div class="grid">
+        <a href="https://github.com/codespaces" target="_blank" class="btn">My GitHub Codespace</a>
 
-<a href="https://jupyter.org/try-jupyter/lab/" class="card">
-    <strong>Python Desktop (Jupyter)</strong>
-    <div class="desc">Window-based interface for data and code.</div>
-</a>
+        <a href="https://jupyter.org/try-jupyter/lab/" target="_blank" class="btn">Jupyter Python Desktop</a>
 
-<a href="https://pyodide.org/en/stable/console.html" class="card">
-    <strong>Instant Console</strong>
-    <div class="desc">Fastest way to test a quick script.</div>
-</a>
+        <a href="https://webvm.io/" target="_blank" class="btn">Instant Linux (Python3)</a>
+    </div>
+</body>
+</html>
