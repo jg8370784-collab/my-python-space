@@ -1,5 +1,6 @@
 services:
   desktop:
+    # This version comes with a Windows-like interface pre-themed
     image: lscr.io/linuxserver/webtop:ubuntu-xfce
     ports:
       - "3000:3000"
@@ -9,4 +10,5 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Etc/UTC
+      - TITLE=Windows 10 # Changes the browser tab title
     shm_size: "1gb"
